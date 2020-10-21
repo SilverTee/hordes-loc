@@ -2,7 +2,8 @@ export default {
   // Simple basic UI elements that pop up everywhere
   ok: {
     en: 'Okay',
-    ru: 'Окей',
+    el: 'ΟΚ',
+    ru: 'Хорошо',
     de: 'Okay',
     hi: 'ठीक',
     fr: 'OK',
@@ -13,11 +14,17 @@ export default {
     ko: '오케이',
     ro: 'Okay',
     zh: '好的',
-    hu: 'Rendben'
+    hu: 'Rendben',
+    pl: 'OK',
+    bn: 'ঠিক আছে',
+    vi: 'Đồng ý',
+    sr: 'Добро',
+    it: 'Ok'
   },
 
   back: {
     en: 'Back',
+    el: 'Πίσω',
     ru: 'Назад',
     hi: 'पिछला',
     fr: 'Retour',
@@ -29,11 +36,17 @@ export default {
     ko: '뒤로',
     ro: 'Înapoi',
     zh: '回',
-    hu: 'Vissza'
+    hu: 'Vissza',
+    pl: 'Cofnij',
+    bn: 'আগে',
+    vi: 'Trở về',
+    sr: 'Назад',
+    it: 'Indietro'
   },
 
   accept: {
     en: 'Accept',
+    el: 'Αποδοχή',
     ru: 'Принять',
     hi: 'स्वीकार है',
     fr: 'Accepter',
@@ -45,12 +58,18 @@ export default {
     ko: '동의',
     ro: 'Acceptă',
     zh: '允许',
-    hu: 'Elfogadás'
+    hu: 'Elfogadás',
+    pl: 'Akceptuj',
+    bn: 'গ্রায্য',
+    vi: 'Chấp nhận',
+    sr: 'Прихвати',
+    it: 'Accetta'
   },
 
   cancel: {
     en: 'Cancel',
-    ru: 'Отменить',
+    el: 'Ακύρωση',
+    ru: 'Отмена',
     nl: 'Annuleren',
     tr: 'İptal Et',
     fr: 'Annuler',
@@ -61,11 +80,17 @@ export default {
     ko: '취소',
     hi: 'कैंसल',
     zh: '取消',
-    hu: 'Mégsem'
+    hu: 'Mégsem',
+    pl: 'Anuluj',
+    bn: 'বাতিল',
+    vi: 'Hủy bỏ',
+    sr: 'Откажи',
+    it: 'Annullare'
   },
 
   decline: {
     en: 'Decline',
+    el: 'Απόρριψη',
     ru: 'Отказать',
     hi: 'मना करें',
     fr: 'Refuser',
@@ -77,11 +102,17 @@ export default {
     ko: '쇠퇴',
     ro: 'Refuză',
     zh: '拒绝',
-    hu: 'Elutasítás'
+    hu: 'Elutasítás',
+    pl: 'Anuluj',
+    bn: 'অগ্রায্য',
+    vi: 'Từ chối',
+    sr: 'Одбиј',
+    it: 'Declina'
   },
 
   close: {
     en: 'Close',
+    el: 'Κλείσιμο',
     ru: 'Закрыть',
     hi: 'बंद करे',
     fr: 'Fermer',
@@ -93,6 +124,11 @@ export default {
     ko: '닫기',
     ro: 'Închide',
     zh: '关',
-    hu: 'Bezárás'
+    hu: 'Bezárás',
+    pl: 'Zamknij',
+    bn: 'বন্ধ',
+    vi: 'Đóng',
+    sr: 'Затвори',
+    it: 'Chiudi'
   }
 }

@@ -6,7 +6,6 @@ Community driven text and localization repository for the browser game Hordes.io
 This repository is a public submodule of the [hordes.io](https://hordes.io) sourcecode, containing a build script to compile files found in `loc/` into individual language specific `.json` files (here are the [Russian](https://hordes.io/assets/loc/ru.json) and [German](https://hordes.io/assets/loc/de.json) files for an example). Translations for any respective language do not have to be complete, as the build script will substitute the original English text for any strings that have not been translated for the language.
 
 Resources for first timers and GitHub beginners
-* [DeepL Translator](https://www.deepl.com/en/translator) - Our preferred translator.
 * [Language codes](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) - Pick language codes from here when introducing a new language. Ignore post-dash text.
 * [GitHub video tutorial](https://www.youtube.com/watch?v=0fKg7e37bQE), [GitHub guides](https://guides.github.com/)
 * [Tutorial on updating your fork](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser) - Updating your repository to match the master's state.
@@ -59,7 +58,7 @@ export default {
 ```
 All strings are contained in objects that hold translations for any amount of languages. The default language will generally be `en`for English, but any language can be added. In this case, we can see the Archers name being held in the `name: { ... } `object, and the Russian translation is already present, along with the original English text.
 
-To add a translation, simply add a [language code](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry (``en, de, fr...``) with your translation. For example, to add a German translation for the Archer's name:
+To add a translation, simply add a [language code](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) (``en, de, fr...``) with your translation. For example, to add a German translation for the Archer's name:
 ```js
   // The class name
   name: {
@@ -68,8 +67,6 @@ To add a translation, simply add a [language code](http://www.iana.org/assignmen
     de: 'Jäger'
   }
   ```
-**Note: if the code for you language contains 3 characters, make sure to add a space before the colon after each of the other language codes in the file you're editing.**
-
 We do not have to add a German translation for the `description` string (You can if you want to, of course). It is perfectly fine if the translations are incomplete, as the build system will automatically resolve the incomplete translations to English.
 Once you finished your translation, scroll down to the bottom of the page to find a button named `Commit changes`. Leave the option below as `Commit directly to the master branch` and click the button.
 Now that you're done comitting the translation, go to your fork's main page and click the button `New pull request`, add in a name for your Pull Request and click `Create Pull Request`.

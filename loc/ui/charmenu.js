@@ -4,10 +4,11 @@ export default {
   select: {
     title: {
       en: 'Select Character',
-      ru: 'Выберите Персонажа',
+      el: 'Επιλογή Χαρακτήρα',
+      ru: 'Выберите героя',
       fr: 'Sélectionnez le Personnage',
       hi: 'स्वरूप चुने',
-      es: 'Seleccione Carácter',
+      es: 'Selecciona un Personaje',
       de: 'Charakter Auswählen',
       ko: '캐릭터 선택',
       tr: 'Karakteri Seç',
@@ -15,15 +16,22 @@ export default {
       pt: 'Selecione um Personagem',
       ro: 'Selectează Caracterul',
       zh: '選人物',
-      hu: 'Válassz karaktert'
+      hu: 'Válassz karaktert',
+      pl: 'Wybierz Postać',
+      bn: 'চরিত্র বাছাই করুন',
+      vi: 'Lựa chọn nhân vật',
+      cs: 'Vyber postavu',
+      sr: 'Одабери играча',
+      it: 'Seleziona il personaggio'
     },
 
     create: {
       en: 'Click to create character',
-      ru: 'Нажмите, чтобы создать персонажа',
+      el: 'Κάνε κλίκ για να επιλέξεις χαρακτήρα',
+      ru: 'Нажмите, чтобы создать героя',
       hi: 'स्वरूप बानाने के लिए क्लिक करे',
-      es: 'Pulsar para crear un carácter',
-      de: 'Klicke, um einen Charakter zu machen', // TODO: shorten
+      es: 'Pulsa aquí para crear un personaje',
+      de: 'Klicke, um einen Charakter zu erstellen',
       fr: 'Cliquez pour créer le personnage',
       ko: '캐릭터를 만들려면 클릭하십시오',
       tr: 'Karakter oluşturmak için tıkla',
@@ -31,27 +39,41 @@ export default {
       pt: 'Clique para criar um personagem',
       ro: 'Click pentru a crea un caracter',
       zh: '點擊以創建角色',
-      hu: 'Kattints karakter létrehozásához'
+      hu: 'Kattints karakter létrehozásához',
+      pl: 'Klijnij aby stworzyć postać',
+      bn: 'চরিত্র তৈরি করতে ক্লিক করুন',
+      vi: 'Nhấn để tạo nhân vật',
+      cs: 'Klikni zde pro vytvoření postavy',
+      sr: 'Кликни да креираш играча',
+      it: 'Clicca per creare il personaggio'
     },
 
     enterWorld: {
       en: 'Enter World',
+      el: 'Είσοδος στον κόσμο',
       ru: 'Войти в мир',
-      fr: 'Entrer le Monde',
+      fr: 'Entrer dans le Monde',
       hi: 'प्रवेश करे',
-      es: 'Entrar Mundo',
-      de: 'Tritt ein in die Welt',
+      es: 'Entrar al Mundo',
+      de: 'Welt betreten',
       ko: '세계에 들어가기',
       tr: 'Dünyaya Gir',
       nl: 'Betreed de Wereld',
       pt: 'Entrar no Mundo',
       ro: 'Intră în Lume',
       zh: '進入世界',
-      hu: 'Belépés a világba'
+      hu: 'Belépés a világba',
+      pl: 'Wejdź do świata',
+      bn: 'প্রবেশ করুন',
+      vi: 'Tiến vào Thế giới',
+      cs: 'Vstoupit do světa',
+      sr: 'Уђи у свет',
+      it: 'Entra nel mondo'
     },
 
     emptySlot: {
       en: 'Empty',
+      el: 'Κενό',
       ru: 'Пусто',
       hi: 'रिक्त',
       es: 'Vacío',
@@ -63,12 +85,19 @@ export default {
       pt: 'Vazio',
       ro: 'Gol',
       zh: '空的',
-      hu: 'Üres'
+      hu: 'Üres',
+      pl: 'Pusty',
+      bn: 'খালি',
+      vi: 'Trống',
+      cs: 'Prázdný slot',
+      sr: 'Празно',
+      it: 'vuoto'
     },
 
     error: {
       en: 'Network Error',
-      ru: 'Проблема с Сетью',
+      el: 'Σφάλμα δικτύου',
+      ru: 'Проблема с сетью',
       fr: 'Problème de Connexion',
       hi: 'नेट्वर्क में खराबी',
       es: 'Error de Red',
@@ -79,7 +108,13 @@ export default {
       pt: 'Erro de Rede',
       ro: 'Eroare de Rețea',
       zh: '網絡錯誤',
-      hu: 'Hálózati Hiba'
+      hu: 'Hálózati Hiba',
+      pl: 'Problem z siecią',
+      bn: 'নেটওয়ার্কে সমস্যা',
+      vi: 'Lỗi kết nối mạng',
+      cs: 'Network Error',
+      sr: 'Грешка при конекцији',
+      it: 'Errore di rete'
     }
   },
 
@@ -87,10 +122,11 @@ export default {
   create: {
     title: {
       en: 'Character Creation',
-      ru: 'Создание Персонажа',
+      el: 'Δημιουργία Χαρακτήρα',
+      ru: 'Создание героя',
       fr: 'Création du Personnage',
       hi: 'स्वरूप निर्माण',
-      es: 'Creación de Carácter',
+      es: 'Creación de Personaje',
       de: 'Charaktererstellung',
       ko: '캐릭터 생성',
       tr: 'Karakter Oluşturma',
@@ -98,31 +134,45 @@ export default {
       pt: 'Criação de Personagens',
       ro: 'Creare de Personaje',
       zh: '角色創造',
-      hu: 'Karakter Létrehozás'
+      hu: 'Karakter Létrehozás',
+      pl: 'Tworzenie Postaci',
+      bn: 'চরিত্র নির্মাণ',
+      vi: 'Tạo nhân vật',
+      cs: 'Vytváření postavy',
+      sr: 'Креирање играча',
+      it: 'Creazione del personaggio'
     },
 
     pressIcon: {
       en: 'Press an icon for a brief description.',
+      el: 'Πατήστε ένα εικονίδιο για μια σύντομη περιγραφή.',
       ru: 'Нажмите на иконку, чтобы увидеть краткое описание.',
       fr: 'Cliquez sur une icône pour une brève description.',
       hi: 'संक्षिप्त विवरण के लिए तस्वीर पर क्लिक करे।',
-      es: 'Pulse un icono para obtener una breve descripción.',
-      de: 'Drücken Sie ein Symbol für eine Kurzbeschreibung.',
+      es: 'Presiona un icono para obtener una breve descripción.',
+      de: 'Drücke auf ein Icon für eine Kurzbeschreibung',
       ko: '간단한 설명을 보려면 아이콘을 누르십시오',
       tr: 'Kısa bir açıklama için bir ikona bas.',
       nl: 'Druk op een icoon voor een korte beschrijving.',
       pt: 'Pressione um ícone para uma breve descrição.',
       ro: 'Apăsați o pictogramă pentru o scurtă descriere.',
       zh: '按圖標可獲得簡要說明。',
-      hu: 'Kattints a címerre egy rövid leírásért.'
+      hu: 'Kattints a címerre egy rövid leírásért.',
+      pl: 'Kliknij ikonę aby wyświetlić krótki opis.',
+      bn: 'সংক্ষিপ্ত বিবরণের জন্য ছবিতে ক্লিক করুন।',
+      vi: 'Nhấn biểu tượng để xem mô tả ngắn gọn.',
+      cs: 'Klikni na ikonu pro stručný popis.',
+      sr: 'Притисни на икону за кратак опис.',
+      it: 'Premi un\'icona per una breve descrizione.'
     },
 
     selectClass: {
       en: 'Select a Class',
-      ru: 'Выберите Класс',
+      el: 'Επιλογή Κλάσης',
+      ru: 'Выберите класс',
       hi: 'श्रेणी चुने',
-      es: 'Seleccione una Clase',
-      de: 'Wählen Sie eine Klasse',
+      es: 'Selecciona una Clase',
+      de: 'Wähle eine Klasse',
       fr: 'Sélectionnez une Classe',
       ko: '클래스 선택',
       tr: 'Bir Sınıf Seç',
@@ -130,54 +180,81 @@ export default {
       pt: 'Selecione uma Classe',
       ro: 'Alegeți o Clasă',
       zh: '選擇角色職業',
-      hu: 'Válassz egy kasztot'
+      hu: 'Válassz egy kasztot',
+      pl: 'Wybierz klasę',
+      bn: 'শ্রেণী বাছাই করুন',
+      vi: 'Lựa chọn Lớp nhân vật',
+      cs: 'Zvolit povolání',
+      sr: 'Одабери класу',
+      it: 'Seleziona una Classe'
     },
 
     selectFaction: {
       en: 'Select a Faction',
+      el: 'Επιλογή Φατρίας',
       ru: 'Выберите фракцию',
       fr: 'Sélectionnez une Faction',
       hi: 'वंश चुने',
-      es: 'Seleccione una Facción',
-      de: 'Wählen Sie eine Fraktion aus',
+      es: 'Selecciona una Facción',
+      de: 'Wähle eine Fraktion',
       ko: '진영을 선택하십시오',
       tr: 'Bir Grup Seç',
       nl: 'Selecteer een Factie',
       pt: 'Selecione uma Facção',
       ro: 'Alegeți o Facțiune',
       zh: '選擇派系',
-      hu: 'Válassz egy szövetséget'
+      hu: 'Válassz egy szövetséget',
+      pl: 'Wybierz frakcję',
+      bn: 'দল বাছাই করুন',
+      vi: 'Lựa chọn phe phái',
+      cs: 'Zvolit frakci',
+      sr: 'Одабери факцију',
+      it: 'Seleziona una Fazione'
     },
 
     enterName: {
       en: 'Enter a name',
+      el: 'Εισάγετε ένα όνομα',
       ru: 'Введите имя',
       fr: 'Entrez un nom',
       hi: 'नाम डाले',
       es: 'Ingresa un nombre',
-      de: 'Geben Sie einen Namen ein', // TODO: shorten
+      de: 'Gib einen Namen ein',
       ko: '이름 입력',
       tr: 'Bir isim gir',
       nl: 'Voer een naam in',
       pt: 'Introduza um nome',
       ro: 'Introduceți un nume',
       zh: '選擇名稱',
-      hu: 'Add meg a hősöd nevét'
+      hu: 'Add meg a hősöd nevét',
+      pl: 'Wprowadź imię',
+      bn: 'নাম লিখুন',
+      vi: 'Nhập tên',
+      cs: 'Zadej jméno',
+      sr: 'Унеси име',
+      it: 'Inserisci un nome'
     },
 
     nameReq: {
       en: 'Your name can only contain characters a-Z, and numbers 0-9, without any spaces. Between 3 and 16 characters.',
+      el: 'Το όνομά σας μπορεί να περιέχει μόνο χαρακτήρες a-Z και ψηφία 0-9 χωρίς κενά, και να είναι μεταξύ 3 και 16 χαρακτήρων.',
       ru: 'Ваше имя может состоять только из букв латинского алфавита a-Z и цифр 0-9, без пробелов. От 3 до 16 символов.',
-      fr: 'Votre nom ne peut contenir que des caractères de A à Z, des chiffres entre 0 et 9, sans aucun espace, et entre 3 et 16 caractères.',
+      fr: 'Votre nom ne peut contenir que des caractères de a à Z, des chiffres entre 0 et 9, sans aucun espace, et entre 3 et 16 caractères.',
       hi: 'आपके नाम में केवल a-Z अक्षर और 0-9 अंक हो सकते है| 3 और 16 वर्णों के बीच।',
-      es: 'Su nombre sólo puede contener los caracteres de la a-Z, y los números del 0 al 9, sin espacios. Entre 3 y 16 caracteres.',
-      de: 'Dein Name darf nur die Buchstaben a-Z und die Zahlen 0-9 ohne Leerzeichen enthalten. Zwischen 3 und 16 Buchstaben.',
+      es: 'Tu nombre sólo puede contener caracteres de la a-Z, y números del 0-9, sin espacios. Entre 3 y 16 caracteres.',
+      de: 'Dein Name darf nur die Buchstaben a-Z und die Zahlen 0-9 ohne Leerzeichen enthalten und muss 3 bis 16 Zeichen lang sein.',
       ko: '이름에는 공백없이 a-Z와 0-9의 문자 만 사용할 수 있습니다. 최대 16 자.',
       tr: 'İsminiz boşluk bırakmadan, en az 3 ve en fazla 16 karakter barındıracak şekilde, yalnızca a-Z karakterlerini ve 0-9 arasındaki sayıları içerebilir.',
       nl: 'Uw naam kan alleen de letters a-Z bevatten, en cijfers 0-9, zonder spaties. Tussen 3 en 16 tekens.',
       pt: 'O seu nome só pode conter caracteres de a-Z, e números 0-9, sem espaços. Entre 3 e 16 caracteres.',
       ro: 'Numele tău poate conține doar caractere a-Z, și numere 0-9, fără spații. Între 3 și 16 caractere.',
-      hu: 'A nevedben betűk A-tól Z-ig, és számok 0-tól 9-ig, lehetnek csak, szünetek nélkül. 3 és 16 karakter között.'
+      hu: 'A nevedben betűk a-tól Z-ig, és számok 0-tól 9-ig, lehetnek csak, szünetek nélkül. 3 és 16 karakter között.',
+      pl: 'Imię musi zawierać tylko litery a-Z oraz numery 0-9, bez spacji. Od 3 do 16 znaków.',
+      bn: 'আপনার বাছাই করা নামে শুধু a-Z অক্ষর এবং 0-9 সংখ্যা ব্যবহার করা যাবে, কোনো স্পেস ছাড়া 3 থেকে 16  অক্ষরের মাঝে লিখতে হবে।',
+      vi: 'Tên của bạn chỉ chứ các ký tự từ a-z, và số từ 0-9, không bao gồm khoảng trắng. Độ dài từ 3 đến 16 kí tự.',
+      cs: 'Tvoje jméno může obsahovat pouze znaky a-Z a číslice 0-9, bez meze. Jméno musí být v rozsahu 3 až 16 písmen.',
+      sr: 'Име сме само да има слова од а до З, и бројеве од 0 до 9, без размака. Име може садржати између 3 и 16 карактера.',
+      it: 'Il tuo nome può contenere solo caratteri a-Z, e numeri 0-9, senza spazi. Tra 3 e 16 caratteri'
     }
   },
 
@@ -186,10 +263,11 @@ export default {
     // The character's name is placed after this string, e.g. 'Delete Battlebubbles'
     title: {
       en: 'Delete',
+      el: 'Διαγραφή',
       ru: 'Удалить',
       hi: 'मिटा दे',
       es: 'Borrar',
-      de: 'Löschen',
+      de: 'Lösche',
       fr: 'Supprimer',
       ko: '캐릭터 삭제',
       tr: 'Sil',
@@ -197,15 +275,22 @@ export default {
       pt: 'Eliminar',
       ro: 'Șterge',
       zh: '刪除',
-      hu: 'Törlés'
+      hu: 'Törlés',
+      pl: 'Usuń',
+      bn: 'মুছে ফেলুন',
+      vi: 'Xóa',
+      cs: 'Smazat',
+      sr: 'Избрисати',
+      it: 'Rimuovi'
     },
 
     info: {
       en: 'To delete, type the character\'s name. Your character can not be restored.',
-      ru: 'Чтобы удалить, введите имя персонажа. Ваш персонаж не может быть восстановлен.',
+      el: 'Για να διαγράψετε, πληκτρολογήστε το όνομα του χαρακτήρα. Ο χαρακτήρας σας δεν θα μπορέσει να ανακτηθεί εάν συνεχίσετε.',
+      ru: 'Чтобы удалить, введите имя героя. После удаления данного героя, восстановление невозможно',
       hi: 'मिटाने के लिए अपने स्वरुप का नाम दाले। आपका स्वरूप पुनर नहीं मिल पाएगा।',
-      es: 'Para eliminar, escriba el nombre del carácter. Tu carácter no puede ser restaurado.',
-      de: 'Geben Sie zum Löschen deines character\'s den Namen ein. Dein Charakter kann nicht wiederhergestellt werden.',
+      es: 'Para eliminar, escribe el nombre del personaje. Tu personaje no podrá ser restaurado.',
+      de: 'Gib zum Löschen deines Charakters seinen Namen ein. Dein Charakter kann nicht wiederhergestellt werden.',
       fr: 'Pour supprimer, saisissez le nom du personnage. Votre personnage ne pourra pas être restauré.',
       ko: '삭제하려면 캐릭터의 이름을 입력하십시오. 당신의 캐릭터는 회복 될 수 없습니다.',
       tr: 'Silmek için karakterin adını yazın. Silinen karakter geri getirilemez.',
@@ -213,23 +298,36 @@ export default {
       pt: 'Para apagar, digite o nome do personagem. Seu personagem não poderá ser restaurado.',
       ro: 'Pentru a șterge, tastați numele caracterului. Personajul tău nu va putea fi restaurat',
       zh: '要刪除，請鍵入角色的名稱。 你的角色無法恢復。',
-      hu: 'Add meg a karaktered nevét a törléshez. Ezek után már nem lehet visszaállítani.'
+      hu: 'Add meg a karaktered nevét a törléshez. Ezek után már nem lehet visszaállítani.',
+      pl: 'Aby usunąć, wpisz imię postaci. Przywrócenie postaci nie będzie możliwe.',
+      bn: 'মুছে ফেলতে, চরিত্রের নামটি টাইপ করুন। আপনার মুছে ফেলা চরিত্রটি পুনরুদ্ধার করা সম্ভব না।',
+      vi: 'Để xóa, gõ tên nhân vật. Nhân vật của bạn không thể phục hồi.',
+      cs: 'Pro smazaní napiš jméno tvé postavy. Tvoje postava již nemůže být obnovena.',
+      sr: 'Да избришеш играча, унеси његово име. Играч неће моћи бити враћен.',
+      it: 'Per cancellare, digita il nome del personaggio. Il tuo personaggio non può essere ripristinato.'
     },
 
     placeholder: {
       en: 'Are you sure?',
+      el: 'Είστε σίγουροι;',
       ru: 'Вы уверены?',
       fr: 'Êtes-vous sûr?',
       hi: 'पक्की तौर पर?',
       es: '¿Estás seguro?',
-      de: 'Bist du sicher?',
+      de: 'Bist du dir sicher?',
       ko: '확실합니까?',
       tr: 'Emin misin?',
       nl: 'Weet u het zeker?',
       pt: 'Tem a certeza?',
       ro: 'Ești sigur?',
       zh: '你確定嗎？',
-      hu: 'Biztos vagy benne?'
+      hu: 'Biztos vagy benne?',
+      pl: 'Na pewno?',
+      bn: 'আপনি কি নিশ্চিত?',
+      vi: 'Bạn có chắc chứ?',
+      cs: 'Jsi si jistý?',
+      sr: 'Да ли си сигуран?',
+      it: 'Sei sicuro?'
     }
   }
 }
